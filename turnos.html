@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=si, initial-scale=1" />
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <script src="funciones.js"></script>
+</head>
+
+<body>
+    <h1>Turnos</h1>
+    <table>
+        <tr>
+            <th>Turno</th>
+            <th>Horas Disponibles</th>
+            <th>cupos disponibles</th>
+        </tr>
+        <tr>
+            <td>Mañana</td>
+            <td>11:00
+                <button onclick="mostrarmodal('11:00','h11')"> Inscribirme </button>
+            </td>
+            <td><span id="h11">30</span> cupos</td>
+        </tr>
+        <tr>
+            <td>Mañana</td>
+            <td>12:00
+                <button onclick="mostrarmodal('12:00','h12')"> Inscribirme </botton>
+            </td>
+            <td><span id="h12">30</span> cupos</td>
+        </tr>
+        <td>Mañana</td>-
+        <td>13:00
+            <button onclick="mostrarmodal('13:00','h13')"> Inscribirme </button>
+        </td>
+        <td><span id="h13">30</span> cupos</td>
+        </tr>
+        <tr>
+            <td>Tarde</td>
+            <td>15:00
+                <button onclick="mostrarmodal('15:00','h15')"> Inscribirme </button>
+            </td>
+            <td><span id="h15">30</span> cupos</td>
+        </tr>
+        <tr>
+            <td>Tarde</td>
+            <td>16:00
+                <button onclick="mostrarmodal('16:00','h16')"> Inscribirme </button>
+            </td>
+            <td><span id="h16">30</span> cupos</td>
+        </tr>
+        <tr>
+            <td>Tarde</td>
+            <td>17:00
+                <button onclick="mostrarmodal('17:00','h17')"> Inscribirme </button>
+            </td>
+            <td><span id="h17">30</span> cupos</td>
+        </tr>
+        <tr>
+            <td>Tarde</td>
+            <td>18:00
+                <button onclick="mostrarmodal('18:00','h18')"> Inscribirme </button>
+            </td>
+            <td><span id="h18">30</span> cupos</td>
+        </tr>
+        <tr>
+            <td>Tarde</td>
+            <td>19:00
+                <button onclick="mostrarmodal('19:00','h19')"> Inscribirme </button>
+            </td>
+            <td><span id="h19">30</span> cupos</td>
+        </tr>
+        <tr>
+            <td>Tarde</td>
+            <td>20:00
+                <button onclick="mostrarmodal('20:00','h20')"> Inscribirme </button>
+            </td>
+            <td><span id="h20">30</span> cupos</td>
+        </tr>
+        <tr>
+            <td>Tarde</td>
+            <td>21:00
+                <button onclick="mostrarmodal('21:00','h21')"> Inscribirme </button>
+            </td>
+            <td><span id="h21">30</span> cupos</td>
+        </tr>
+    </table>
+    <dialog id="modal">
+        <h3>Incribite al horario de las <span id="horario"></span></h3>
+        <button type="button" onclick="aceptar()">aceptar</button>
+        <button type="button" onclick="rechazar()">rechazar</button>
+    </dialog>
+</body>
+
+</html>

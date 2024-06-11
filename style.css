@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+h1 {
+    font-family: "Lilita One", sans-serif;
+    color: rgba(199, 188, 207, 0.849);
+    font-size: 80px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgba(253, 253, 253, 0.571);
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+body {
+    background-image: url("imagenes/imagen_gym.jpg");
+    background-size: cover;
+    font-family: "Lilita One", sans-serif;
+}
+
+dialog {
+    z-index: 10;
+    position: fixed;
+}
+
+.botonera a {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 20px;
+    transform: translate(50%, -50%);
+    text-align: center;
+    font-size: 80px;
+    text-decoration: none;
+}
+
+.ropa img {
+    width: 80%;
+    height: 80%;
+}
+
+.ropa a {
+    font-size: 1.2em;
+    margin: auto;
+}
+
+@media (width>=800px) {
+    .Tienda {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
