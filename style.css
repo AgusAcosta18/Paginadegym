@@ -2,7 +2,7 @@
 
 h1 {
     font-family: "Lilita One", sans-serif;
-    color: rgba(199, 188, 207, 0.849);
+    color: rgb(176, 176, 169);
     font-size: 80px;
 }
 
@@ -29,19 +29,41 @@ body {
 
 dialog {
     z-index: 10;
-    position: fixed;
+    position: static;
+
+}
+
+.botonera {
+    display: grid;
 }
 
 .botonera a {
-    width: 300px;
-    height: 300px;
+
     border-radius: 25px;
-    margin: auto;
-    padding: 20px;
-    transform: translate(50%, -50%);
+    margin: 50px;
+    padding: 10px;
     text-align: center;
     font-size: 80px;
     text-decoration: none;
+    color: rgb(100, 82, 82);
+    background-color: rgb(214, 220, 224);
+
+}
+
+@media (width < 600px) {
+    .botonera a {
+        grid-template-columns: auto;
+
+    }
+
+}
+
+@media (width >=600px) {
+    .botonera a {
+        grid-template-columns: auto auto auto;
+
+    }
+
 }
 
 .ropa img {
@@ -59,4 +81,10 @@ dialog {
         display: grid;
         grid-template-columns: auto auto auto;
     }
+}
+
+h2 {
+    font-family: "Lilita One", sans-serif;
+    color: rgb(176, 176, 169);
+    font-size: 40px;
 }
