@@ -9,6 +9,7 @@ function mostrarmodal(hora, idspan) {
 function rechazar() {
     const modal = document.getElementById("modal");
     modal.style.display = "none";
+
 }
 function aceptar() {
     let contador = document.getElementById(spanseleccionado).innerText;
