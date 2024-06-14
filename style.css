@@ -2,8 +2,8 @@
 
 h1 {
     font-family: "Lilita One", sans-serif;
-    color: rgb(176, 176, 169);
-    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
 }
 
 table {
@@ -25,6 +25,8 @@ body {
     background-image: url("imagenes/imagen_gym.jpg");
     background-size: cover;
     font-family: "Lilita One", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 dialog {
@@ -43,7 +45,7 @@ dialog {
     margin: 50px;
     padding: 10px;
     text-align: center;
-    font-size: 80px;
+    font-size: 35px;
     text-decoration: none;
     color: rgb(100, 82, 82);
     background-color: rgb(214, 220, 224);
@@ -66,6 +68,10 @@ dialog {
 
 }
 
+.ropa {
+    text-align: center;
+}
+
 .ropa img {
     width: 80%;
     height: 80%;
@@ -86,5 +92,31 @@ dialog {
 h2 {
     font-family: "Lilita One", sans-serif;
     color: rgb(176, 176, 169);
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.remera {
+    text-align: center;
+}
+
+.remera img {
+    width: 80%;
+    height: 80%;
+}
+
+.remera p {
+    font-size: 1.8em;
+
+    color: rgb(176, 176, 169);
+}
+
+.remera div {
+    background-color: rgba(6, 6, 6, 0.837);
+    margin: 1em;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.86);
+    margin: 0;
+    width: 100%;
 }
