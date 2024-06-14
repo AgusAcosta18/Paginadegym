@@ -2,9 +2,24 @@
 
 h1 {
     font-family: "Lilita One", sans-serif;
+    color: rgb(143, 143, 143);
+    font-size: 60px;
+}
+
+h1.Titulo {
+    font-family: "Lilita One", sans-serif;
     color: rgb(0, 0, 0);
     font-size: 60px;
 }
+
+.talles {
+    font-family: "Lilita One", sans-serif;
+    color: rgb(154, 136, 136);
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
 
 table {
     width: 100%;
@@ -41,7 +56,7 @@ dialog {
 
 .botonera a {
 
-    border-radius: 25px;
+    border-radius: 35px;
     margin: 50px;
     padding: 10px;
     text-align: center;
@@ -78,8 +93,15 @@ dialog {
 }
 
 .ropa a {
-    font-size: 1.2em;
+    font-size: 50px;
     margin: auto;
+    text-decoration: none;
+    color: rgba(253, 253, 253, 0.571);
+}
+
+.ropa div {
+    background-color: rgb(10, 11, 11);
+    margin: 1em;
 }
 
 @media (width>=800px) {
@@ -119,4 +141,50 @@ header {
     background-color: rgba(255, 255, 255, 0.86);
     margin: 0;
     width: 100%;
+}
+
+.short {
+    text-align: center;
+}
+
+.short img {
+    width: 80%;
+    height: 80%;
+}
+
+.short p {
+    font-size: 1.8em;
+
+    color: rgb(176, 176, 169);
+}
+
+.short div {
+    background-color: rgba(6, 6, 6, 0.837);
+    margin: 1em;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.86);
+    margin: 0;
+    width: 100%;
+}
+
+.Buzos {
+    text-align: center;
+}
+
+.Buzos img {
+    width: 80%;
+    height: 80%;
+}
+
+.Buzos p {
+    font-size: 1.8em;
+
+    color: rgb(176, 176, 169);
+}
+
+.Buzos div {
+    background-color: rgba(6, 6, 6, 0.837);
+    margin: 1em;
 }
