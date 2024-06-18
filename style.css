@@ -197,12 +197,14 @@ header {
 }
 
 header a {
-    position: fixed;
+    position: absolute;
+    float: right;
     right: 20px;
     top: 20px;
     color: rgb(96, 97, 99);
     text-decoration: none;
     font-size: 1.9em;
+
 }
 
 #NO {
