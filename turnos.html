@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <header>
         <h1>Turnos</h1>
         <a href="index.html">Volver</a>
@@ -24,7 +25,7 @@
             <td>11:00
                 <button onclick="mostrarmodal('11:00','h11')"> Inscribirme </button>
             </td>
-            <td><span id="h11">2</span> cupos</td>
+            <td><span id="h11">5</span> cupos</td>
         </tr>
         <tr>
             <td>Mañana</td>
@@ -90,10 +91,12 @@
         </tr>
     </table>
     <dialog id="modal">
-        <h3>Incribite al horario de las <span id="horario"></span></h3>
+        <h3 id="si">Incribite al horario de las <span id="horario"></span></h3>
+        <h3 id="NO">No hay turnos disponibles a las <span id="horario1"></span></h3>
         <button type="button" onclick="aceptar()">aceptar</button>
         <button type="button" onclick="rechazar()">rechazar</button>
     </dialog>
+
 </body>
 
 </html>
