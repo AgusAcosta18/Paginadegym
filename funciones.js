@@ -14,6 +14,9 @@ function rechazar() {
 function aceptar() {
     let contador = document.getElementById(spanseleccionado).innerText;
     console.log(contador);
-    document.getElementById(spanseleccionado).innerText = contador - 1;
+    if (contador > 0) {
+        document.getElementById(spanseleccionado).innerText = contador - 1;
+    }
     rechazar();
+
 }

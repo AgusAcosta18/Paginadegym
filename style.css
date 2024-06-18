@@ -2,14 +2,16 @@
 
 h1 {
     font-family: "Lilita One", sans-serif;
-    color: rgb(143, 143, 143);
+    color: rgb(0, 0, 0);
     font-size: 60px;
+    margin: 0;
 }
 
 h1.Titulo {
     font-family: "Lilita One", sans-serif;
     color: rgb(0, 0, 0);
     font-size: 60px;
+    margin: 0;
 }
 
 .talles {
@@ -20,11 +22,11 @@ h1.Titulo {
 
 }
 
-
 table {
     width: 100%;
     border: 1px solid black;
     background-color: rgba(253, 253, 253, 0.571);
+    margin: 20px 5px;
 }
 
 th,
@@ -42,11 +44,14 @@ body {
     font-family: "Lilita One", sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 dialog {
     z-index: 10;
-    position: static;
+    position: fixed;
+    top: 30%;
+    left: 0%;
 
 }
 
@@ -100,7 +105,7 @@ dialog {
 }
 
 .ropa div {
-    background-color: rgb(10, 11, 11);
+    background-color: rgb(0, 0, 0);
     margin: 1em;
 }
 
@@ -114,7 +119,7 @@ dialog {
 h2 {
     font-family: "Lilita One", sans-serif;
     color: rgb(176, 176, 169);
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .remera {
@@ -134,13 +139,15 @@ h2 {
 
 .remera div {
     background-color: rgba(6, 6, 6, 0.837);
-    margin: 1em;
+    margin: 1cm;
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.86);
-    margin: 0;
+    color: rgba(255, 255, 255, 0.753);
     width: 100%;
+    margin: 0;
+    padding: 0;
+
 }
 
 .short {
@@ -187,4 +194,13 @@ header {
 .Buzos div {
     background-color: rgba(6, 6, 6, 0.837);
     margin: 1em;
+}
+
+header a {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    color: rgb(96, 97, 99);
+    text-decoration: none;
+    font-size: 2.1em;
 }
